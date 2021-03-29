@@ -21,4 +21,4 @@ class Timer(models.Model):
 
     def __str__(self):
         """Unicode representation of Timer."""
-        return self.date_added
+        return self.user.username
